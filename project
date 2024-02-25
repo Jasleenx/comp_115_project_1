@@ -1,0 +1,257 @@
+import turtle
+window = turtle.Screen()
+window.bgcolor('black')
+
+pen = turtle.Turtle()
+pen.up()
+pen.goto(-50,-170)
+pen.fillcolor('brown')
+pen.begin_fill()
+pen.speed(10)
+pen.down()
+pen.forward(140) 
+pen.left(80)
+pen.forward(200)
+pen.left(100)   
+pen.forward(210)
+pen.left(100)   
+pen.forward(200) 
+pen.end_fill() 
+def draw_concentric_circles(num_circles):
+    radius = 30
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(100)
+    pen.color('green')
+    for i in range(num_circles):
+         pen.goto(-10,250)
+         pen.color('gold')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,100)
+         pen.down()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)   
+def draw_concentric_circles(num_circles):
+    radius = 30
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(100)
+    pen.color('green')
+    for i in range(num_circles):
+         pen.goto(120,210)
+         pen.color('red')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,100)
+         pen.down()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)      
+def draw_concentric_circles(num_circles):
+    radius = 30
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(100)
+    pen.color('green')
+    for i in range(num_circles):
+         pen.goto(110,250)
+         pen.color('pink')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,100)
+         pen.down()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 30
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(100)
+    pen.color('green')
+    for i in range(num_circles):
+         pen.goto(-170,220)
+         pen.color('indigo')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,100)
+         pen.down()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 30
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(50)
+    pen.color('green')
+    for i in range(num_circles):
+         pen.goto(180,120)
+         pen.color('maroon')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,100)
+         pen.down()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)            
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150)
+    pen.color('green') 
+    for i in range(num_circles):
+         pen.goto(40,180)
+         pen.color('orange')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150)
+    pen.color('green')  
+    for i in range(num_circles):
+         pen.goto(-50,200)
+         pen.color('white')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150)
+    pen.color('green')  
+    for i in range(num_circles):
+         pen.goto(-70,100)
+         pen.color('teal')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150)
+    pen.color('green')  
+    for i in range(num_circles):
+         pen.goto(-130,140)
+         pen.color('magenta')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150) 
+    pen.color('green') 
+    for i in range(num_circles):
+         pen.goto(100,90)
+         pen.color('yellow')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)
+def draw_concentric_circles(num_circles):
+    radius = 25
+    radius_increase = 5
+    pen = turtle.Turtle()
+    pen.speed(150) 
+    pen.color('green') 
+    for i in range(num_circles):
+         pen.goto(0,50)
+         pen.color('purple')
+         pen.left(90)
+         pen.down()
+         pen.circle(radius,1000)
+         pen.up()
+         r=radius+(num_circles*i)
+draw_concentric_circles(40)         
+def arc(pen, r):
+    pen.up()
+    pen.goto(-370,280)
+    pen.down()
+    pen.backward(radius) 
+    pen.left(90)
+    pen.down()
+    pen.circle(-radius, 180)
+    pen.left(90)
+    pen.up()
+    pen.backward(radius)
+wn = turtle.Screen()
+pen = turtle.Turtle()
+radius = 100
+increase = 5
+pen.pensize(increase)
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'darkblue', 'purple']
+pen.up()
+pen.speed(6)
+for color in colors:
+    pen.color(color)
+    arc(pen, radius)
+    radius -= increase
+def arc(pen, r):
+    pen.up()
+    pen.goto(-470,200)
+    pen.down()
+    pen.backward(radius) 
+    pen.left(90)
+    pen.down()
+    pen.circle(-radius, 180)
+    pen.left(90)
+    pen.up()
+    pen.backward(radius)
+wn = turtle.Screen()
+pen = turtle.Turtle()
+radius = 100
+increase = 5
+pen.pensize(increase)
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'darkblue', 'purple']
+pen.up()
+pen.speed(6)
+for color in colors:
+    pen.color(color)
+    arc(pen, radius)
+    radius -= increase
+def arc(pen, r):
+    pen.up()
+    pen.goto(-300,200)
+    pen.down()
+    pen.backward(radius) 
+    pen.left(90)
+    pen.down()
+    pen.circle(-radius, 180)
+    pen.left(90)
+    pen.up()
+    pen.backward(radius)
+wn = turtle.Screen()
+pen = turtle.Turtle()
+radius = 100
+increase = 5
+pen.pensize(increase)
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'darkblue', 'purple']
+pen.up()
+pen.speed(6)
+for color in colors:
+    pen.color(color)
+    arc(pen, radius)
+    radius -= increase
+
+turtle.done()
+
+
